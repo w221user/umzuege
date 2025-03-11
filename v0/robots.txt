@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /en/
+Allow: /img/
+
+# Prevent access to certain files
+Disallow: /script.js
+Disallow: /styles.css
+
+# Sitemap location
+Sitemap: https://fendel-umzuege.de/sitemap.xml
+
+# Crawl-delay to prevent server overload
+Crawl-delay: 10 

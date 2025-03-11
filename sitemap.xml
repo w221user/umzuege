@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- German Homepage -->
+    <url>
+        <loc>https://fendel-umzuege.de/</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://fendel-umzuege.de/en/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://fendel-umzuege.de/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://fendel-umzuege.de/"/>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/01_logo.jpg</image:loc>
+            <image:title>Fendel Umzüge Logo</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/01_stuttgart.jpg</image:loc>
+            <image:title>Stuttgart Panorama</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/01_guys.jpg</image:loc>
+            <image:title>Umzugshelfer Team</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/02_wohnung.jpg</image:loc>
+            <image:title>Wohnungsumzug</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/02_buero.jpg</image:loc>
+            <image:title>Büroumzug</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/03_preis_leistung.jpg</image:loc>
+            <image:title>Preis-Leistung Übersicht</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/04_transporter.jpg</image:loc>
+            <image:title>Unser Transporter</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/05_umzugstag.jpg</image:loc>
+            <image:title>Unser Team am Umzugstag</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/06_karte.jpg</image:loc>
+            <image:title>Unser Einsatzgebiet</image:title>
+        </image:image>
+    </url>
+
+    <!-- English Homepage -->
+    <url>
+        <loc>https://fendel-umzuege.de/en/</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="de" href="https://fendel-umzuege.de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://fendel-umzuege.de/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://fendel-umzuege.de/"/>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/01_logo.jpg</image:loc>
+            <image:title>Fendel Moving Logo</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/01_stuttgart.jpg</image:loc>
+            <image:title>Stuttgart Panorama</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/01_guys.jpg</image:loc>
+            <image:title>Moving Team</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/02_wohnung.jpg</image:loc>
+            <image:title>Residential Moving</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/02_buero.jpg</image:loc>
+            <image:title>Office Moving</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/03_preis_leistung.jpg</image:loc>
+            <image:title>Price-Service Overview</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/04_transporter.jpg</image:loc>
+            <image:title>Our Moving Van</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/05_umzugstag.jpg</image:loc>
+            <image:title>Our Team on Moving Day</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://fendel-umzuege.de/img/06_karte.jpg</image:loc>
+            <image:title>Our Service Area</image:title>
+        </image:image>
+    </url>
+</urlset> 

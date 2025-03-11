@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Fendel Moving - Your Moving Company in Stuttgart</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional moving services in Stuttgart and surrounding areas. Private and business moves, furniture assembly, transport and packing. Reliable and experienced.">
+    <meta name="keywords" content="Moving Stuttgart, Moving Company Stuttgart, Furniture Transport, Moving Helpers, Office Moving, Private Moving, Furniture Assembly">
+    <meta name="author" content="Andrej Fendel">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Fendel Moving - Moving Company Stuttgart">
+    <meta property="og:description" content="Your reliable partner for moves in Stuttgart and surrounding areas. Professional, fast and safe.">
+    <meta property="og:image" content="../img/01a_logo.jpg">
+    <meta property="og:url" content="https://fendel-umzuege.de/en/">
+    <meta property="og:type" content="website">
+    
+    <!-- Canonical URL -->
+    <meta rel="canonical" href="https://fendel-umzuege.de/en/">
+    <link rel="alternate" hreflang="de" href="https://fendel-umzuege.de/">
+    <link rel="alternate" hreflang="en" href="https://fendel-umzuege.de/en/">
+    <link rel="alternate" hreflang="x-default" href="https://fendel-umzuege.de/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%2300214E;stop-opacity:1' /><stop offset='100%25' style='stop-color:%2300338C;stop-opacity:1' /></linearGradient><filter id='shadow'><feDropShadow dx='2' dy='2' stdDeviation='2' flood-color='%23000000' flood-opacity='0.5'/></filter></defs><rect width='100' height='100' fill='url(%23grad)'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='60' fill='white' filter='url(%23shadow)'>FU</text></svg>">
+    <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%2300214E;stop-opacity:1' /><stop offset='100%25' style='stop-color:%2300338C;stop-opacity:1' /></linearGradient><filter id='shadow'><feDropShadow dx='2' dy='2' stdDeviation='2' flood-color='%23000000' flood-opacity='0.5'/></filter></defs><rect width='100' height='100' fill='url(%23grad)'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='60' fill='white' filter='url(%23shadow)'>FU</text></svg>">
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../styles.css?v=1.1" rel="stylesheet">
+    <!-- AOS CSS and JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00214E',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Add preload for critical resources -->
+    <link rel="preload" href="../styles.css?v=1.1" as="style">
+    <link rel="preload" href="../img/01a_logo.jpg?v=1.1" as="image">
+    <!-- Add additional meta tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+</head>
+<body class="pb-24">
+    <!-- 1. Homepage with Logo -->
+    <section id="homepage" class="pb-4 sm:pb-8 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 text-center">
+            <div class="mb-4 relative" data-aos="fade-down" data-aos-duration="1000">
+                <img src="../img/01_stuttgart.jpg?v=1.1" loading="lazy" alt="Stuttgart Panorama" class="w-full max-w-2xl mx-auto h-[200px] object-cover object-top rounded-lg shadow-lg opacity-90 filter contrast-105 saturate-[0.95]">
+            </div>
+
+            <h1 class="text-3xl sm:text-4xl font-bold mb-6 flex items-end justify-center gap-3" data-aos="fade-up" data-aos-duration="1000">
+                <span class="text-[#00214E] font-serif">Fendel</span>
+                <img src="../img/logo_05.jpg?v=1.1" alt="Logo" class="h-16 sm:h-24 w-auto -mt-2 inline-block object-cover object-center mx-1 filter contrast-105">
+                <span class="text-[#00214E] font-serif">Moving</span>
+            </h1>
+
+            <p class="text-xl sm:text-2xl text-[#00214E] font-medium mb-8 max-w-2xl mx-auto leading-relaxed tracking-wide" data-aos="fade-up" data-aos-delay="200">
+                Professional Service in Stuttgart
+            </p>
+
+            <div class="mb-6" data-aos="fade-up" data-aos-delay="400">
+                <img src="../img/01_guys2.jpg?v=1.1" alt="Moving Team" class="w-full max-w-2xl mx-auto rounded-lg shadow-lg filter contrast-105 saturate-[0.95] brightness-105">
+            </div>
+        </div>
+    </section>
+
+    <!-- Fixed Contact Buttons -->
+    <div class="fixed bottom-9 left-0 right-0 px-4 sm:px-6 py-3 z-50">
+        <div class="container mx-auto flex justify-center items-center gap-4 sm:gap-8">
+            <!-- Language Switch Button -->
+            <a href="../" class="flex items-center gap-2 text-[#00214E] hover:text-[#003171] bg-white px-3 py-1.5 rounded-full shadow-sm opacity-0" id="langBtn">
+                <svg width="24" height="16" viewBox="0 0 24 16" class="w-4 h-3">
+                    <rect width="24" height="16" fill="#000000"/>
+                    <rect width="24" height="10.67" y="5.33" fill="#DD0000"/>
+                    <rect width="24" height="5.33" y="10.67" fill="#FFCE00"/>
+                </svg>
+                <span class="hidden sm:inline text-sm font-medium">Deutsch</span>
+            </a>
+
+            <!-- Phone Button -->
+            <a href="tel:+4917687339681" class="flex items-center gap-2 text-[#00214E] hover:text-[#003171] bg-white px-3 py-1.5 rounded-full shadow-sm opacity-0" id="phoneBtn">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+                <span class="hidden sm:inline text-sm font-medium">+49 176 87 33 96 81</span>
+            </a>
+
+            <!-- Email Button -->
+            <a href="mailto:fendelpro@gmail.com" class="flex items-center gap-2 text-[#00214E] hover:text-[#003171] bg-white px-3 py-1.5 rounded-full shadow-sm opacity-0" id="emailBtn">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+                <span class="hidden sm:inline text-sm font-medium">fendelpro@gmail.com</span>
+            </a>
+
+            <!-- WhatsApp Button -->
+            <a href="https://wa.me/+4917687339681" target="_blank" class="flex items-center gap-2 text-white hover:text-white/90 bg-[#25D366] hover:bg-[#22c25e] px-3 py-1.5 rounded-full shadow-sm opacity-0" id="whatsappBtn">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+                </svg>
+                <span class="hidden sm:inline text-sm font-medium">WhatsApp</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Button Animation Styles -->
+    <style>
+        .contact-button {
+            opacity: 1;
+            transition: opacity 0.8s ease-in-out;
+        }
+        .privacy-content {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .privacy-content.show {
+            display: block;
+            opacity: 1;
+        }
+        .privacy-button {
+            position: relative;
+            overflow: hidden;
+        }
+        .privacy-button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s, height 0.3s;
+        }
+        .privacy-button:hover::after {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+    <!-- Button Animation Scripts -->
+    <script>
+        // Initialize AOS
+        AOS.init({
+            once: true,
+            offset: 100,
+            duration: 800,
+            easing: 'ease-in-out'
+        });
+
+        // Простой код для управления видимостью кнопок
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('#langBtn, #phoneBtn, #emailBtn, #whatsappBtn');
+            
+            // Добавляем класс для анимации
+            buttons.forEach(btn => {
+                btn.classList.add('contact-button');
+            });
+
+            // Функция для проверки позиции скролла
+            function checkScroll() {
+                const scrollPosition = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const documentHeight = document.documentElement.scrollHeight;
+
+                // Показываем кнопки везде, кроме самого верха и самого низа страницы
+                const shouldShow = scrollPosition > 100 && scrollPosition < (documentHeight - windowHeight - 100);
+
+                buttons.forEach(btn => {
+                    btn.style.opacity = shouldShow ? '1' : '0';
+                });
+            }
+
+            // Вызываем функцию при загрузке и скролле
+            checkScroll();
+            window.addEventListener('scroll', checkScroll);
+        });
+    </script>
+
+    <!-- 2. Services -->
+    <section id="services" class="py-8 sm:py-12 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-lg space-y-8" data-aos="fade-up">
+                    <img src="../img/02_wohnung.jpg?v=1.1" alt="Residential Moving" class="w-full max-w-2xl mx-auto rounded-lg">
+
+                    <div class="text-center">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
+                            Our Services:
+                        </h2>
+                    </div>
+
+                    <ul class="space-y-4 text-lg">
+                        <li class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-2">•</span>
+                            <span>Residential and Commercial Moving</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-2">•</span>
+                            <span>Moving Van with Driver</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-2">•</span>
+                            <span>Moving Assistance</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-2">•</span>
+                            <span>Furniture and Kitchen Assembly/Disassembly</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-2">•</span>
+                            <span>Furniture Transport</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-2">•</span>
+                            <span>Furniture Packing</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-2">•</span>
+                            <span>Packing Materials and Moving Boxes</span>
+                        </li>
+                    </ul>
+
+                    <img src="../img/02_buero.jpg?v=1.1" alt="Office Moving" class="w-full max-w-2xl mx-auto rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Pricing -->
+    <section id="pricing" class="py-8 sm:py-12 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-lg space-y-8" data-aos="fade-up">
+                    <div class="text-center">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
+                            Price – Service
+                        </h2>
+                    </div>
+
+                    <div class="text-gray-600">
+                        <p class="mb-4">
+                            Each job is calculated individually. We can agree on either a fixed price or an hourly rate depending on the situation. For fixed prices, several details need to be considered. This is typically arranged for clear and easily overseen jobs. Hourly rates are often advantageous for complex tasks.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4">Would you like a free quote?</h3>
+                        <p class="mb-4">Please send us the following information:</p>
+                        <ul class="list-inside space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <span class="text-[#00214E] font-bold mr-2">•</span>
+                                <span>Addresses or postal codes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-[#00214E] font-bold mr-2">•</span>
+                                <span>Floor level, elevator availability</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-[#00214E] font-bold mr-2">•</span>
+                                <span>What needs to be moved? Pictures or a list are best.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center text-gray-600">
+                        <p class="font-medium">
+                            A personal inspection or video consultation is available free of charge.
+                        </p>
+                    </div>
+
+                    <img src="../img/03a_Preis Leistung.jpg?v=1.1" alt="Price-Service Overview" class="h-[300px] w-full max-w-2xl mx-auto rounded-lg opacity-90 object-cover object-[center_10%]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Capacity -->
+    <section id="capacity" class="py-8 sm:py-12 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-lg space-y-8" data-aos="fade-up">
+                    <div class="text-center">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
+                            How Much Can We Move?
+                        </h2>
+                    </div>
+
+                    <div class="text-gray-600">
+                        <p class="mb-4">
+                            Our moving van is specially designed for furniture transport and city moves, offering the largest interior volume in the 3.5t class. Compared to 7.5t trucks, it's easier to park in the city and navigate narrow streets.
+                        </p>
+                        <p class="mb-4">
+                            In one trip, we can typically move the contents of a 2-room apartment. For distances under 50 km, we can make up to 5 trips in one day, allowing us to move apartments up to 120m² in a single day.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4">Cargo Space Dimensions:</h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+                            <div class="p-3 bg-white rounded-lg shadow-sm">
+                                <span class="block text-gray-500 text-sm">Length</span>
+                                <span class="text-lg font-semibold text-[#00214E]">4.05 m</span>
+                            </div>
+                            <div class="p-3 bg-white rounded-lg shadow-sm">
+                                <span class="block text-gray-500 text-sm">Height</span>
+                                <span class="text-lg font-semibold text-[#00214E]">2.2 m</span>
+                            </div>
+                            <div class="p-3 bg-white rounded-lg shadow-sm">
+                                <span class="block text-gray-500 text-sm">Width</span>
+                                <span class="text-lg font-semibold text-[#00214E]">2 m</span>
+                            </div>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <span class="text-gray-600 font-medium">Interior volume approx.</span>
+                            <span class="text-xl font-bold text-[#00214E] ml-2">18m³</span>
+                        </div>
+                    </div>
+
+                    <img src="../img/04_transporter.jpg?v=1.1" alt="Our Moving Van" class="w-full max-w-2xl mx-auto rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Moving Day -->
+    <section id="moving-day" class="py-8 sm:py-12 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-lg space-y-8" data-aos="fade-up">
+                    <div class="text-center">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
+                            On Moving Day
+                        </h2>
+                    </div>
+
+                    <div class="space-y-4 text-gray-600">
+                        <div class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-3">1.</span>
+                            <p>We protect the floor and entrance door with protective materials.</p>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-3">2.</span>
+                            <p>Valuable and bulky items are first packed and then carried to the moving van.</p>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-3">3.</span>
+                            <p>In the van, the cargo is secured with soft materials and straps.</p>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <span class="text-[#00214E] font-bold mr-3">4.</span>
+                            <p>After transport, we bring everything into the new home and unpack it.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4">Assembly and Disassembly</h3>
+                        <p class="text-gray-600 mb-4">
+                            Disassembly and assembly are necessary when furniture is too bulky or heavy. We can handle this for you on moving day, or you can do it before the moving date.
+                        </p>
+                    </div>
+
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4">Our Equipment</h3>
+                        <p class="text-gray-600">
+                            We carry tools, packing materials, and carrying straps in our moving van.
+                        </p>
+                    </div>
+
+                    <img src="../img/05_umzugstag.jpg?v=1.1" alt="Our Team on Moving Day" class="w-full max-w-2xl mx-auto rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Regional Work -->
+    <section id="regional" class="py-8 sm:py-12 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-lg space-y-8" data-aos="fade-up">
+                    <div class="text-center">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
+                            We Work Regionally
+                        </h2>
+                    </div>
+
+                    <div class="text-gray-600">
+                        <p class="mb-4">
+                            Most of our jobs come from Stuttgart and the surrounding area. We can also handle nationwide moves across Germany for you.
+                        </p>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div class="bg-green-50 p-6 rounded-lg">
+                            <div class="flex items-center gap-3 mb-3">
+                                <svg class="w-6 h-6 text-[#00214E]" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+                                </svg>
+                                <h3 class="text-xl font-semibold text-gray-800">WhatsApp</h3>
+                            </div>
+                            <p class="text-gray-600">
+                                You can send an inquiry via WhatsApp. Just click the button above.
+                            </p>
+                        </div>
+
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <div class="flex items-center gap-3 mb-3">
+                                <svg class="w-6 h-6 text-[#00214E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                                <h3 class="text-xl font-semibold text-gray-800">Other Contact Options</h3>
+                            </div>
+                            <p class="text-gray-600">
+                                You can also reach us using the contact details provided at the bottom.
+                            </p>
+                        </div>
+                    </div>
+
+                    <img src="../img/06_karte.jpg?v=1.1" alt="Our Service Area" class="w-full max-w-2xl mx-auto rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Testimonials -->
+    <section id="testimonials" class="py-8 sm:py-12 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-lg space-y-8" data-aos="fade-up">
+                    <div class="text-center">
+                        <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
+                            What Our Customers Say
+                        </h2>
+                    </div>
+
+                    <div class="space-y-6">
+                        <!-- Testimonial 1 -->
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <img src="../img/01_guys2.jpg?v=1.1" alt="Moving Team" class="w-16 h-16 rounded-full object-cover">
+                                </div>
+                                <div>
+                                    <p class="text-gray-600 mb-4">
+                                        "The move in Stuttgart-Vaihingen was a challenge due to the narrow driveway and many stairs. The team was very professional and handled everything with great care. Everything was completed quickly and safely."
+                                    </p>
+                                    <p class="text-[#00214E] font-medium">- Sabine</p>
+                                    <p class="text-sm text-gray-500 italic">Translated from German</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <img src="../img/01_guys2.jpg?v=1.1" alt="Moving Team" class="w-16 h-16 rounded-full object-cover">
+                                </div>
+                                <div>
+                                    <p class="text-gray-600 mb-4">
+                                        "Moving to the rooftop apartment in Göppingen was a special task. The team showed great expertise in handling the narrow staircase and tight corners. Everything was transported safely and professionally."
+                                    </p>
+                                    <p class="text-[#00214E] font-medium">- Alexander</p>
+                                    <p class="text-sm text-gray-500 italic">Translated from German</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <img src="../img/01_guys2.jpg?v=1.1" alt="Moving Team" class="w-16 h-16 rounded-full object-cover">
+                                </div>
+                                <div>
+                                    <p class="text-gray-600 mb-4">
+                                        "We were very satisfied with the move. The team was friendly and professional. Everything was handled with great care and expertise. We would recommend Fendel Moving to anyone."
+                                    </p>
+                                    <p class="text-[#00214E] font-medium">- Emily N.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4 -->
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <img src="../img/01_guys2.jpg?v=1.1" alt="Moving Team" class="w-16 h-16 rounded-full object-cover">
+                                </div>
+                                <div>
+                                    <p class="text-gray-600 mb-4">
+                                        "Moving our large IKEA wardrobe was a concern because the ceiling height in the new apartment was only 4 cm higher than the wardrobe. The team handled this challenge professionally and managed to assemble everything perfectly."
+                                    </p>
+                                    <p class="text-[#00214E] font-medium">- Andreas</p>
+                                    <p class="text-sm text-gray-500 italic">Translated from German</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 5 -->
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <img src="../img/01_guys2.jpg?v=1.1" alt="Moving Team" class="w-16 h-16 rounded-full object-cover">
+                                </div>
+                                <div>
+                                    <p class="text-gray-600 mb-4">
+                                        "Besides the regular furniture, we also moved our kitchen. After installation, everything was straight and functioning perfectly. The gaps were neatly sealed with silicone. Thank you!"
+                                    </p>
+                                    <p class="text-[#00214E] font-medium">- Julia</p>
+                                    <p class="text-sm text-gray-500 italic">Translated from German</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Notice -->
+    <div class="bg-gray-100 p-2 rounded-lg mb-4">
+        <p class="text-sm text-gray-600 text-center">Note: The German version of this website is legally binding. This English translation is provided for convenience only. In case of any discrepancies, the German version shall prevail.</p>
+    </div>
+
+    <!-- 7. Legal Notice (Impressum) -->
+    <section id="impressum" class="py-4 sm:py-8 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-center">
+                Legal Notice (Impressum)
+            </h2>
+
+            <div class="max-w-3xl mx-auto">
+                <!-- Compact Version -->
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow mb-4">
+                    <div class="text-center space-y-4">
+                        <h3 class="text-xl font-semibold">Andrej Fendel e.U.</h3>
+                        <p class="text-gray-600">
+                            Legal form: Einzelunternehmer (Sole proprietorship)
+                            <br>
+                            Owner: Andrej Fendel
+                            <br>
+                            Holderäckerstr. 8
+                            <br>
+                            70499 Stuttgart
+                            <br>
+                            Germany
+                        </p>
+                        <div class="space-y-2 text-gray-600">
+                            <p class="flex items-center justify-center gap-2">
+                                <svg class="w-5 h-5 text-[#00214E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                                +49 176 87 33 96 81
+                            </p>
+                            <p class="flex items-center justify-center gap-2">
+                                <svg class="w-5 h-5 text-[#00214E]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                                fendelpro@gmail.com
+                            </p>
+                        </div>
+                        <button onclick="toggleImpressum()" data-lang="en" class="privacy-button mt-4 bg-[#00214E] text-white px-6 py-2 rounded-lg hover:bg-[#003171] transition-colors">
+                            Show Full Legal Notice
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Full Version -->
+                <div id="fullImpressumEn" class="privacy-content bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
+                    <!-- Company Information -->
+                    <div class="space-y-6">
+                        <!-- Legal Information -->
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <h4 class="text-lg font-semibold mb-3 text-center">Legal Notice</h4>
+                            <div class="space-y-2 text-gray-600">
+                                <p class="text-center">Responsible for content according to § 55 Abs. 2 RStV:</p>
+                                <p class="text-center">Andrej Fendel</p>
+                                <p class="text-center">Holderäckerstr. 8</p>
+                                <p class="text-center">70499 Stuttgart</p>
+
+                                <div class="mt-4">
+                                    <h5 class="font-semibold mb-2">Legal Form and Company Name</h5>
+                                    <p>Andrej Fendel e.U.</p>
+                                    <p>Legal form: Einzelunternehmer (Sole proprietorship)</p>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h5 class="font-semibold mb-2">Authorized Representative</h5>
+                                    <p>Andrej Fendel</p>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h5 class="font-semibold mb-2">VAT Registration Number</h5>
+                                    <p>VAT/USt-ID: DE352273972</p>
+                                </div>
+
+                                <div class="mt-4">
+                                    <h5 class="font-semibold mb-2">Legal Notes</h5>
+                                    <ul class="list-disc list-inside space-y-1">
+                                        <li>Legal form: Sole proprietorship (e.U.)</li>
+                                        <li>Sole proprietorship, therefore no registration number required</li>
+                                        <li>No business identification number according to § 139c of the German Fiscal Code</li>
+                                        <li>Member of the German Professional Association for Transport and Traffic (BG Verkehr)</li>
+                                        <li>Member of the Employers' Association for Forwarding and Logistics (ASD)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Disclaimer -->
+                        <div class="text-sm text-gray-500 space-y-4">
+                            <h4 class="font-semibold">Disclaimer:</h4>
+                            <p>Despite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Privacy Policy -->
+    <section id="privacy" class="py-4 sm:py-8 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-center">
+                Privacy Policy
+            </h2>
+
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow space-y-6">
+                    <!-- Compact Summary -->
+                    <div class="space-y-4">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h3 class="text-lg font-semibold mb-2">Quick Overview</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600">
+                                <li>We collect only necessary data for website functionality</li>
+                                <li>No tracking or analytics cookies used</li>
+                                <li>Data is stored securely and deleted after 6 months</li>
+                                <li>You have full GDPR rights regarding your data</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h3 class="text-lg font-semibold mb-2">Contact for Data Protection</h3>
+                            <p class="text-gray-600">
+                                Andrej Fendel<br>
+                                Holderäckerstr. 8<br>
+                                70499 Stuttgart<br>
+                                Email: fendelpro@gmail.com
+                            </p>
+                        </div>
+
+                        <!-- Button to show full policy -->
+                        <div class="text-center">
+                            <button onclick="togglePrivacyPolicy()" class="privacy-button mt-4 bg-[#00214E] text-white px-6 py-2 rounded-lg hover:bg-[#003171] transition-colors">
+                                Show Full Privacy Policy
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Full Policy (hidden by default) -->
+                    <div id="fullPrivacyPolicy" class="privacy-content">
+                        <!-- Introduction -->
+                        <div class="bg-gray-100 p-4 rounded-lg mb-8">
+                            <p class="text-sm text-gray-600">This is an English translation of our German Privacy Policy (Datenschutzerklärung). The German version is legally binding. You can find the original German version <a href="/#datenschutz" class="text-blue-600 hover:underline">here</a>.</p>
+                        </div>
+
+                        <!-- General Information -->
+                        <div class="space-y-4">
+                            <h3 class="text-xl font-semibold">1. Data Protection Overview</h3>
+                            <p>
+                                We take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with statutory data protection regulations and this privacy policy.
+                            </p>
+                            <p>
+                                When you use this website, various personal data is collected. This privacy policy explains what information we collect and what we use it for. It also explains how and for what purpose this happens.
+                            </p>
+                        </div>
+
+                        <!-- Technical Cookies -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">2. Technically Necessary Cookies</h3>
+                            <p>
+                                Our website uses technically necessary cookies. These cookies are essential for the basic functionality of the website. You cannot opt out of these cookies as they are required for the website to function properly.
+                            </p>
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-semibold mb-2">Cookie Details:</h4>
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>Type: Technical session cookies</li>
+                                    <li>Purpose: Website functionality and user experience</li>
+                                    <li>Storage Duration: Session duration (deleted when browser is closed)</li>
+                                    <li>Legal Basis: Art. 6(1)(f) GDPR (legitimate interests)</li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-gray-50 p-4 rounded-lg mt-4">
+                                <h4 class="font-semibold mb-2">Specific Cookies Used:</h4>
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>AOS Settings: For smooth scroll animations</li>
+                                    <li>Session Cookie: For basic website functionality</li>
+                                </ul>
+                                <p class="mt-2 text-sm">
+                                    These cookies do not collect any personal data and are used solely for the technical delivery of the website.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Server Log Files -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">3. Server Log Files</h3>
+                            <p>
+                                The website provider automatically collects and stores information in server log files that your browser automatically transmits to us. These are:
+                            </p>
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>Browser type and version</li>
+                                <li>Operating system used</li>
+                                <li>Referrer URL</li>
+                                <li>Host name of the accessing computer</li>
+                                <li>Time of the server request</li>
+                                <li>IP address</li>
+                            </ul>
+                            <p>
+                                This data is not combined with other data sources. The collection of this data is based on Art. 6(1)(f) GDPR.
+                            </p>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">4. Contact Form and WhatsApp Communication</h3>
+                            <p>
+                                When you send us inquiries via the contact form or WhatsApp, your information from the inquiry form, including the contact details you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions.
+                            </p>
+                            
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-semibold mb-2">WhatsApp Business Usage:</h4>
+                                <p class="mb-4">When using WhatsApp Business to contact us, please note that:</p>
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>WhatsApp is operated by Meta Platforms Ireland Limited</li>
+                                    <li>Data may be transferred to servers outside the EU</li>
+                                    <li>The legal basis for processing is Art. 6(1)(a) GDPR (your consent) and Art. 6(1)(b) GDPR (contract processing)</li>
+                                    <li>You can withdraw your consent at any time by deleting our chat or blocking our number</li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-gray-50 p-4 rounded-lg mt-4">
+                                <h4 class="font-semibold mb-2">Contact Form Data Processing:</h4>
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>Purpose: Customer communication and inquiry processing</li>
+                                    <li>Legal basis: Art. 6(1)(b) GDPR (contract processing)</li>
+                                    <li>Storage duration: 6 months after completion of your request</li>
+                                    <li>Required information: Only the information necessary to answer your inquiry</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- External Services -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">5. External Services and CDN</h3>
+                            <p>
+                                Our website uses external services for optimal functionality:
+                            </p>
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>Tailwind CSS (CDN)</li>
+                                <li>AOS - Animate on Scroll Library</li>
+                                <li>WhatsApp Business</li>
+                            </ul>
+                            <p>
+                                These services may collect technical data such as your IP address. The use is based on Art. 6(1)(f) GDPR.
+                            </p>
+                        </div>
+
+                        <!-- Data Retention -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">6. Data Retention Period</h3>
+                            <p>
+                                We store personal data only as long as necessary:
+                            </p>
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>Server log files: 7 days</li>
+                                <li>Contact inquiries: 6 months after completion of your request</li>
+                                <li>Contract-related data: According to legal retention periods</li>
+                            </ul>
+                        </div>
+
+                        <!-- Legal Basis -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">7. Legal Basis for Data Processing</h3>
+                            <p>
+                                We process your data based on the following legal grounds:
+                            </p>
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>Art. 6(1)(a) GDPR - Consent</li>
+                                <li>Art. 6(1)(b) GDPR - Contract fulfillment</li>
+                                <li>Art. 6(1)(c) GDPR - Legal obligation</li>
+                                <li>Art. 6(1)(f) GDPR - Legitimate interests</li>
+                            </ul>
+                        </div>
+
+                        <!-- Your Rights -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">8. Your Rights Under GDPR</h3>
+                            <p>
+                                You have the following rights regarding your personal data:
+                            </p>
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>Right to information</li>
+                                <li>Right to rectification</li>
+                                <li>Right to erasure</li>
+                                <li>Right to restriction of processing</li>
+                                <li>Right to data portability</li>
+                                <li>Right to object</li>
+                            </ul>
+                            <p class="mt-4">
+                                You also have the right to lodge a complaint with a supervisory authority. The competent supervisory authority for data protection issues is:
+                            </p>
+                            <div class="bg-gray-50 p-4 rounded-lg mt-2">
+                                <p>Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg</p>
+                                <p>Königstraße 10a</p>
+                                <p>70173 Stuttgart</p>
+                                <p>Website: <a href="https://www.baden-wuerttemberg.datenschutz.de" class="text-blue-600 hover:underline" target="_blank">www.baden-wuerttemberg.datenschutz.de</a></p>
+                            </div>
+                        </div>
+
+                        <!-- International Data Transfer -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">9. International Data Transfer</h3>
+                            <p>
+                                Some of our external service providers (CDN services, WhatsApp) may process data outside the European Union (EU) or the European Economic Area (EEA). We ensure that these transfers comply with EU data protection requirements through:
+                            </p>
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>EU Standard Contractual Clauses</li>
+                                <li>Adequacy decisions by the European Commission</li>
+                                <li>Other appropriate safeguards as required by GDPR</li>
+                            </ul>
+                            <p class="mt-4">
+                                You can request information about these safeguards by contacting us using the details provided in the Data Protection Inquiries section.
+                            </p>
+                        </div>
+
+                        <!-- Data Protection Inquiries -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">10. Data Protection Inquiries</h3>
+                            <p>
+                                For privacy-related inquiries and requests, please contact:
+                            </p>
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p>Andrej Fendel</p>
+                                <p>Holderäckerstr. 8</p>
+                                <p>70499 Stuttgart</p>
+                                <p>Email: fendelpro@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <!-- External Links -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">11. External Links</h3>
+                            <p>
+                                Our website contains links to external websites. We have no influence on whether their operators comply with data protection regulations.
+                            </p>
+                        </div>
+
+                        <!-- Updates -->
+                        <div class="space-y-4 mt-8">
+                            <h3 class="text-xl font-semibold">12. Changes to this Privacy Policy</h3>
+                            <p>
+                                We reserve the right to update this privacy policy to reflect changes in our practices or for other operational, legal, or regulatory reasons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add JavaScript for toggle functionality -->
+    <script>
+        function togglePrivacyPolicy() {
+            const fullPolicy = document.getElementById('fullPrivacyPolicy');
+            const button = document.querySelector('[onclick="togglePrivacyPolicy()"]');
+            
+            if (!fullPolicy.classList.contains('show')) {
+                fullPolicy.classList.add('show');
+                button.textContent = 'Hide Full Privacy Policy';
+            } else {
+                fullPolicy.classList.remove('show');
+                button.textContent = 'Show Full Privacy Policy';
+            }
+        }
+
+        function toggleImpressum() {
+            const fullImpressum = document.getElementById('fullImpressumEn');
+            const button = document.querySelector('[onclick="toggleImpressum()"]');
+            
+            if (!fullImpressum.classList.contains('show')) {
+                fullImpressum.classList.add('show');
+                button.textContent = 'Hide Full Legal Notice';
+            } else {
+                fullImpressum.classList.remove('show');
+                button.textContent = 'Show Full Legal Notice';
+            }
+        }
+    </script>
+
+    <script src="../script.js"></script>
+    <!-- Initialize AOS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init();
+        });
+    </script>
+    <!-- Add structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MovingCompany",
+      "name": "Fendel Umzüge",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Holderäckerstr. 8",
+        "addressLocality": "Stuttgart",
+        "postalCode": "70499",
+        "addressCountry": "DE"
+      }
+      // ... more details
+    }
+    </script>
+</body>
+</html> 
